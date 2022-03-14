@@ -6,6 +6,27 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*************************************/
+h1 {
+  text-align: center;
+  margin: 30px auto;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.delete-button button {
+  background-color: red;
+  color: #fff;
+  margin: 60% auto;
+  padding: 10px;
+  border: none;
+}
+hr {
+  width: 90%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
